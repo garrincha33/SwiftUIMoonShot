@@ -16,6 +16,7 @@
 		821D9F0227B1471A007D611E /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D9F0127B1471A007D611E /* Astronaut.swift */; };
 		821D9F0427B14766007D611E /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D9F0327B14766007D611E /* Bundle-Decodable.swift */; };
 		821D9F0627B156C2007D611E /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D9F0527B156C2007D611E /* Mission.swift */; };
+		821D9F0827B1714B007D611E /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D9F0727B1714B007D611E /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		821D9F0127B1471A007D611E /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		821D9F0327B14766007D611E /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		821D9F0527B156C2007D611E /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		821D9F0727B1714B007D611E /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +67,12 @@
 				821D9EFD27B1468E007D611E /* astronauts.json */,
 				821D9F0127B1471A007D611E /* Astronaut.swift */,
 				821D9F0327B14766007D611E /* Bundle-Decodable.swift */,
+				821D9F0527B156C2007D611E /* Mission.swift */,
 				821D9EF127AD568B007D611E /* ContentView.swift */,
+				821D9F0727B1714B007D611E /* Color-Theme.swift */,
 				821D9EFF27B14696007D611E /* missions.json */,
 				821D9EF327AD568B007D611E /* Assets.xcassets */,
 				821D9EF527AD568B007D611E /* Preview Content */,
-				821D9F0527B156C2007D611E /* Mission.swift */,
 			);
 			path = SwiftUIMoonShot;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821D9F0227B1471A007D611E /* Astronaut.swift in Sources */,
+				821D9F0827B1714B007D611E /* Color-Theme.swift in Sources */,
 				821D9EF227AD568B007D611E /* ContentView.swift in Sources */,
 				821D9EF027AD568B007D611E /* SwiftUIMoonShotApp.swift in Sources */,
 				821D9F0627B156C2007D611E /* Mission.swift in Sources */,
