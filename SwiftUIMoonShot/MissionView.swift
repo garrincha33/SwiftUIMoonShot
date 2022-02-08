@@ -29,7 +29,6 @@ struct MissionView: View {
                     
                     
                     VStack(alignment: .leading) {
-                        
                         Rectangle()
                             .frame(height: 2)
                             .foregroundColor(.lightBackground)
@@ -59,7 +58,7 @@ struct MissionView: View {
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
-                                    Text("Astronaut Details")
+                                    AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     Image(crewMember.astronaut.id)
                                         .resizable()
